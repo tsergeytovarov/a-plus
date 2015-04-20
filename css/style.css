@@ -12,13 +12,13 @@ body{
   line-height: 24px;
 
   display: inline-block;
-  vertical-align: top;
 
   width: 100%;
   padding: 20px;
 
   cursor: pointer;
   text-align: center;
+  vertical-align: top;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -48,6 +48,7 @@ body{
 
 .main-header{
   padding: 70px 0 0;
+
   background-color: #ef9f13;
   background-image: url('../img/bg-header.jpg');
   background-repeat: no-repeat;
@@ -369,39 +370,41 @@ body{
   padding-right: 17px;
 
   text-align: right;
-
   vertical-align: top;
 }
 
-.contacts-form input[type="text"],
+.contacts-form input[type='text'] ,
 .contacts-form textarea{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
   font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
   padding: 13px 23px;
+
   border: 2px solid #b2b2b2;
   border-radius: 2px;
   outline: none;
 }
 
-.contacts-form input[type="text"]:hover,
+.contacts-form input[type='text']:hover ,
 .contacts-form textarea:hover{
   border: 2px solid #7f7f7f;
 }
 
-.contacts-form input[type="text"]:focus,
+.contacts-form input[type='text']:focus ,
 .contacts-form textarea:focus{
   border: 2px solid #00b770;
 }
 
 .contacts-form textarea{
-  resize: none;
   height: 107px;
+
+  resize: none;
 }
 
 .contacts-form .field{
