@@ -11,11 +11,9 @@ body{
   font-size: 18px;
   line-height: 24px;
 
-  display: block;
+  display: inline-block;
+  vertical-align: top;
 
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
   width: 100%;
   padding: 20px;
 
@@ -50,12 +48,10 @@ body{
 
 .main-header{
   padding: 70px 0 0;
-
+  background-color: #ef9f13;
   background-image: url('../img/bg-header.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-background-size: cover;
-          background-size: cover;
 }
 
 .header-top{
@@ -131,23 +127,6 @@ body{
   padding-bottom: 152px;
 }
 
-.promo::after{
-  position: absolute;
-  z-index: -1;
-  top: -14px;
-  left: 225px;
-
-  display: block;
-
-  width: 840px;
-  height: 433px;
-
-  content: '';
-
-  background-image: url('../img/bg-promo.png');
-  background-repeat: no-repeat;
-}
-
 .promo-title{
   font-size: 40px;
   font-weight: 700;
@@ -167,7 +146,7 @@ body{
 }
 
 .promo .btn{
-  width: 300px;
+  width: 260px;
 }
 
 .features{
