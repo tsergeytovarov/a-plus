@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 980px;
+}
+
+.main-header {
+  padding-top: 70px;
+  padding-bottom: 155px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.header-top {
+  margin-bottom: 140px;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.header-top::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.logo {
+  float: left;
+  width: 182px;
+  box-shadow:  0 0 0 3px rgba(0,0,0,.7);
+}
+
+.logo img {
+  display: block;
+}
+
+.main-menu {
+  float: right;
+  margin-top: 27px;
+  width: 680px;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+  margin-right: 50px;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 24px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.promo {
+  width: 450px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.features {
+  padding-top: 85px;
+  padding-bottom: 75px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.features .container::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.features-item {
+  float: left;
+  margin-right: 40px;
+  width: 300px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.feedback {
+  padding-top: 80px;
+  padding-bottom: 75px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.feedback .container {
+  position: relative;
+}
+
+.feedback-title,
+.contacts-title {
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 48px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.feedback-all {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.feedback-item{
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.feedback-item::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.feedback-author {
+  position: relative;
+  float: left;
+  padding-left: 170px;
+  width: 130px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.feedback-author img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 133px;
+  height: 133px;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.feedback-content {
+  position: relative;
+  float: right;
+  margin: 0;
+  width: 640px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.contacts {
+  padding-top: 85px;
+  padding-bottom: 85px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.contacts .container {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.contacts-form {
+  float: left;
+  width: 640px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.contacts-form td {
+  padding-bottom: 16px;
+}
+
+.contacts-form .title {
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.contacts-form .field {
+  width: 470px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.contacts-instruction {
+  float: right;
+  width: 300px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.main-footer {
+  padding-top: 94px;
+  padding-bottom: 73px;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-top::after,
+.footer-bottom::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.footer-address {
+  float: left;
+  margin-right: 55px;
+  width: 285px;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.footer-address .logo {
+  float: none;
+}
+
+.footer-menu {
+  float: left;
+  width: 150px;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.footer-menu:nth-child(5) {
+  float: right;
+  width: 135px;
+}
+
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-bottom {
+  margin-top: 45px;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.copyright {
+  float: left;
+  width: 340px;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.footer-social-promo {
+  float: left;
+  width: 440px;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.7);
+}
+
+.footer-social {
+  float: right;
+  width: 190px;
+  text-align: right;
+  box-shadow: inset 0 0 0 3px rgba(0,0,0,.7);
+}
