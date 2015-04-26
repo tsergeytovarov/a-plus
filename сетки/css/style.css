@@ -1,15 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../index.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
+  background: url("../index.jpg") no-repeat top center;
 }
 
 .container {
+  width: 980px;
   margin: 0 auto;
   padding: 0 10px;
-  width: 980px;
 }
 
 .main-header {
@@ -36,8 +34,8 @@ body {
 
 .main-menu {
   float: right;
-  margin-top: 22px;
   width: 680px;
+  margin-top: 22px; /* ? */
 
   min-height: 40px;
 }
@@ -61,8 +59,9 @@ body {
 
 .features-item {
   float: left;
-  margin-right: 40px;
   width: 300px;
+  margin-right: 40px;
+
   min-height: 90px;
 }
 
@@ -71,20 +70,16 @@ body {
 }
 
 .feedback {
-  padding-top: 60px;
-  padding-bottom: 75px;
-}
-
-.feedback .container {
-  position: relative;
+  padding-top: 85px;
+  padding-bottom: 80px;
 }
 
 .feedback-title,
 .contacts-title {
-  min-height: 50px;
   margin: 0;
-  margin-bottom: 50px;
-  margin-top: 10px;
+  margin-bottom: 65px;
+
+  min-height: 50px;
 }
 
 .feedback-item::after {
@@ -97,19 +92,21 @@ body {
   float: left;
   padding-left: 170px;
   width: 130px;
-  min-height: 170px;
+
+  min-height: 140px;
 }
 
 .feedback-content {
   float: right;
-  margin: 0;
   width: 640px;
-  min-height: 170px;
+  margin: 0;
+
+  min-height: 140px;
 }
 
 .contacts {
-  padding-top: 65px;
-  padding-bottom: 85px;
+  padding-top: 85px;
+  padding-bottom: 80px;
 }
 
 .contacts .container {
@@ -121,23 +118,20 @@ body {
 .contacts-form {
   float: left;
   width: 640px;
-  min-height: 445px;
+
+  min-height: 420px;
 }
+
 .contacts-instruction {
   float: right;
   width: 300px;
-  min-height: 445px;
+
+  min-height: 420px;
 }
 
 .main-footer {
-  padding-top: 94px;
-  padding-right: 0;
-  padding-bottom: 73px;
-  padding-left: 0;
-  background-color: #1f2022;
-  color: #ffffff;
-  font-size: 18px;
-  line-height: 24px;
+  padding-top: 95px;
+  padding-bottom: 75px;
 }
 
 .footer-top::after,
@@ -149,19 +143,21 @@ body {
 
 .footer-address {
   float: left;
-  margin-right: 55px;
-  width: 285px;
+  width: 300px;
+  margin-right: 40px;
+
   min-height: 210px;
 }
 
 .footer-menu {
   float: left;
-  margin-top: 25px;
   width: 150px;
+  margin-top: 25px;
+
   min-height: 185px;
 }
 
-.footer-menu:nth-child(5) {
+.footer-menu:last-child {
   float: right;
   width: 135px;
 }
@@ -172,22 +168,24 @@ body {
 
 .copyright {
   float: left;
-  width: 340px;
-  min-height: 60px;
+  width: 300px;
+  margin-right: 40px;
+
+  min-height: 45px;
 }
 
 .footer-social-promo {
   float: left;
-  width: 440px;
-  min-height: 60px;
+  width: 420px;
+
+  min-height: 45px;
 }
 
 .footer-social {
   float: right;
-  width: 190px;
-  text-align: right;
-  font-size: 0;
-  min-height: 60px;
+  width: 170px;
+
+  min-height: 45px;
 }
 
 
@@ -265,6 +263,15 @@ body {
 
 .container:before{
   content: ".container";
+  top: -25px;
+  left: -2px;
+}
+
+.header-top:before{
+  content: ".header-top";
+  top: -25px;
+  left: auto;
+  right: -2px;
 }
 
 .logo:before{
@@ -292,11 +299,13 @@ body {
 }
 
 .feedback-title:before{
-  content: ".feedback";
+  content: ".feedback-title";
 }
 
 .feedback-item:before{
   content: ".feedback-item";
+  top: -25px;
+  left: -2px;
 }
 
 .feedback-author:before{
@@ -308,7 +317,7 @@ body {
 }
 
 .contacts:before{
-  content: ".feedback";
+  content: ".contacts";
 }
 
 .contacts-title:before{
@@ -329,10 +338,16 @@ body {
 
 .footer-top:before{
   content: ".footer-top";
+  top: -25px;
+  left: auto;
+  right: -2px;
 }
 
 .footer-bottom:before{
   content: ".footer-bottom";
+  top: -25px;
+  left: auto;
+  right: -2px;
 }
 
 .footer-address:before{
