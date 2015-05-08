@@ -1,23 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  color: #000000;
-  font-size: 16px;
   font-family: Arial, sans-serif;
+  font-size: 16px;
   line-height: 24px;
+  color: #000000;
 }
 
 .container {
+  width: 980px;
   margin: 0 auto;
   padding: 0 10px;
-  width: 980px;
 }
 
 .main-header {
-  padding-top: 70px;
-  padding-right: 0;
+  padding-top: 65px;
   padding-bottom: 155px;
-  padding-left: 0;
   background-color: #ef9f13;
   background-image: url("../img/bg-header.jpg");
   background-position: center 100%;
@@ -25,7 +23,7 @@ body {
 }
 
 .header-top {
-  margin-bottom: 140px;
+  margin-bottom: 120px;
 }
 
 .header-top::after {
@@ -37,6 +35,7 @@ body {
 .logo {
   float: left;
   width: 180px;
+  height: 100px;
 }
 
 .logo img {
@@ -45,20 +44,19 @@ body {
 
 .main-menu {
   float: right;
-  margin-top: 27px;
   width: 680px;
+  margin-top: 25px;
 }
 
 .main-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 0;
 }
 
 .main-menu li {
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 40px;
   vertical-align: top;
   font-size: 18px;
   line-height: 24px;
@@ -81,16 +79,16 @@ body {
 .btn {
   display: inline-block;
   padding: 20px;
-  outline: none;
-  border: none;
-  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
   vertical-align: top;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;
-  line-height: 24px;
+  color: #ffffff;
   cursor: pointer;
+  outline: none;
+  border: none;
 }
 
 .btn-green {
@@ -111,7 +109,7 @@ body {
 }
 
 .promo-title {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
@@ -119,7 +117,7 @@ body {
 }
 
 .promo p {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 35px;
   color: #404040;
   font-size: 18px;
@@ -133,9 +131,7 @@ body {
 
 .features {
   padding-top: 85px;
-  padding-right: 0;
   padding-bottom: 75px;
-  padding-left: 0;
   background-color: #efefef;
 }
 
@@ -148,8 +144,8 @@ body {
 .features-item {
   position: relative;
   float: left;
-  margin-right: 40px;
   width: 300px;
+  margin-right: 40px;
 }
 
 .features-item:last-child {
@@ -157,7 +153,7 @@ body {
 }
 
 .features-title {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 28px;
   text-transform: uppercase;
   font-size: 18px;
@@ -193,10 +189,8 @@ body {
 }
 
 .feedback {
-  padding-top: 80px;
-  padding-right: 0;
-  padding-bottom: 75px;
-  padding-left: 0;
+  padding-top: 85px;
+  padding-bottom: 80px;
 }
 
 .feedback .container {
@@ -205,8 +199,8 @@ body {
 
 .feedback-title,
 .contacts-title {
-  margin-top: 0;
-  margin-bottom: 70px;
+  margin: 0;
+  margin-bottom: 65px;
   text-transform: uppercase;
   font-size: 40px;
   line-height: 48px;
@@ -245,8 +239,8 @@ body {
 .feedback-author {
   position: relative;
   float: left;
-  padding-left: 170px;
   width: 130px;
+  padding-left: 170px;
 }
 
 .feedback-author img {
@@ -259,7 +253,7 @@ body {
 }
 
 .feedback-author h3 {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 25px;
   text-transform: uppercase;
   font-size: 18px;
@@ -267,25 +261,24 @@ body {
 }
 
 .feedback-author p {
+  margin: 0;
   color: #404040;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .feedback-content {
   position: relative;
   float: right;
-  margin: 0;
   width: 640px;
+  margin: 0;
 }
 
 .feedback-content::before,
 .feedback-content::after {
+  content: "";
   position: absolute;
   width: 26px;
   height: 20px;
   background-repeat: no-repeat;
-  content: "";
 }
 
 .feedback-content::before {
@@ -301,7 +294,7 @@ body {
 }
 
 .feedback-content h3 {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 25px;
   text-transform: uppercase;
   font-size: 18px;
@@ -311,15 +304,11 @@ body {
 .feedback-content p {
   margin: 0;
   color: #404040;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .contacts {
   padding-top: 85px;
-  padding-right: 0;
-  padding-bottom: 85px;
-  padding-left: 0;
+  padding-bottom: 65px;
   background-color: #efefef;
 }
 
@@ -339,8 +328,8 @@ body {
 }
 
 .contacts-form .title {
-  padding-right: 20px;
   width: 90px;
+  padding-right: 20px;
   vertical-align: top;
   text-align: right;
   font-weight: 700;
@@ -357,15 +346,15 @@ body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 13px 23px;
   width: 100%;
-  outline: none;
-  border: 2px solid #b2b2b2;
-  border-radius: 2px;
+  padding: 13px 23px;
   font-weight: 400;
   font-size: 18px;
   font-family: Arial, sans-serif;
   line-height: 24px;
+  outline: none;
+  border: 2px solid #b2b2b2;
+  border-radius: 2px;
 }
 
 .contacts-form input[type="text"]:hover,
@@ -393,7 +382,7 @@ body {
 }
 
 .contacts-instruction h3 {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 25px;
   text-transform: uppercase;
   font-size: 18px;
@@ -401,7 +390,7 @@ body {
 }
 
 .contacts-instruction p {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 25px;
   color: #404040;
   font-size: 18px;
@@ -412,15 +401,17 @@ body {
   margin-top: 125px;
 }
 
+.contacts-instruction .contacts-alert {
+  margin-bottom: 0;
+}
+
 .contacts-alert strong {
   color: #000000;
 }
 
 .main-footer {
-  padding-top: 94px;
-  padding-right: 0;
-  padding-bottom: 73px;
-  padding-left: 0;
+  padding-top: 95px;
+  padding-bottom: 75px;
   background-color: #1f2022;
   color: #ffffff;
   font-size: 18px;
@@ -436,8 +427,8 @@ body {
 
 .footer-address {
   float: left;
-  margin-right: 55px;
-  width: 285px;
+  width: 300px;
+  margin-right: 40px;
 }
 
 .footer-address .logo {
@@ -445,25 +436,27 @@ body {
 }
 
 .footer-address p {
-  margin-top: 75px;
+  margin: 0;
+  margin-top: 60px;
 }
 
 .footer-menu {
   float: left;
-  margin-top: 25px;
   width: 150px;
+  margin-top: 25px;
 }
 
-.footer-menu:nth-child(5) {
+.footer-menu:last-child {
   float: right;
   width: 135px;
 }
 
 .footer-menu h3 {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 35px;
   font-weight: 400;
   font-size: 18px;
+  line-height: 24px;
 }
 
 .footer-menu ul {
@@ -498,24 +491,25 @@ body {
 
 .copyright {
   float: left;
-  width: 340px;
+  width: 300px;
+  margin-right: 40px;
 }
 
 .footer-social-promo {
   float: left;
-  width: 440px;
+  width: 420px;
 }
 
 .footer-social {
   float: right;
-  width: 190px;
+  width: 170px;
   text-align: right;
   font-size: 0;
 }
 
 .social-btn {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 25px;
   vertical-align: middle;
 }
 
