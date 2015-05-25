@@ -27,7 +27,7 @@ body {
 .main-header-inner {
   padding-bottom: 75px;
   margin-bottom: 80px;
-  /* TODO: вырезать другой фон */
+  background-image: url("../img/bg-header-inner.jpg");
 }
 
 .header-top {
