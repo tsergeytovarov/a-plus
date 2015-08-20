@@ -224,7 +224,7 @@ body {
   font-family: Tahoma, sans-serif;
   font-size: 18px;
   line-height: 30px;
-  padding: 18px 29px;
+  padding: 20px 30px;
   vertical-align: top;
   color: #404040;
   border: 2px solid #404040;
@@ -249,10 +249,6 @@ body {
   background: #efefef;
 }
 
-.education-table tbody td {
-  padding: 24px 29px;
-}
-
 .contacts {
   padding-top: 50px;
   padding-bottom: 60px;
@@ -275,7 +271,7 @@ body {
 }
 
 .contacts-form td {
-  padding-bottom: 16px;
+  padding-bottom: 15px;
 }
 
 .contacts-form .title {
@@ -302,7 +298,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  padding: 13px 23px;
+  padding: 15px 25px;
   border: 2px solid #b2b2b2;
   border-radius: 2px;
   outline: none;
@@ -420,7 +416,7 @@ body {
 }
 
 .footer-menu li {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 
 .footer-menu a {
