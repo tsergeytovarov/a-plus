@@ -288,6 +288,16 @@ body {
   width: 515px;
 }
 
+.field-sex label {
+  margin-right: 40px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.field-sex input {
+  margin-right: 25px;
+}
+
 .contacts-form input[type='text'],
 .contacts-form textarea {
   font-family: Arial, sans-serif;
